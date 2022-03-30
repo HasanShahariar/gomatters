@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+// @import url(./minCss/owl.carousel.min.css);
+
+// @import url(./minCss/animate.min.css);
+// @import url(./minCss/normalize.css);
+// @import url(./minCss/font-awesome.min.css);
+// @import url(./minCss/meanmenu.css);
+// @import url(./minCss/slick.css);
+// @import url(./minCss/jquery.fancybox.min.css);
+// @import url(./minCss/jquery-ui.css);
+// @import url(./minCss/nice-select.css);
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+.btn{
+  font-size: 17px;
+    padding: 15px 30px;
+    background-color: #259bff;
+    color: #fff;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+*{
+  font-family: 'Quicksand', sans-serif;
+}
