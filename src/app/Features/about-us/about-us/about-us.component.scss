@@ -14,6 +14,83 @@ p{
 .how-it-works a>i{
   transform: rotateY(180deg);
 }
+
+.card{
+  background-color: #fff;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+
+.section-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 19px;
+}
+.section-wrapper h3{
+  margin: 0;
+  padding: 0;
+  padding-top: 11px;
+  font-size: 22px;
+}
+.section-wrapper span{
+  background: #01d277;
+    padding: 12px 17px;
+    border-radius: 50%;
+
+}
+.section-wrapper .card:nth-child(2) span {
+  background: #1c46c5;
+  padding: 16px 15px 10px;
+    border-radius: 50%;
+}
+.section-wrapper .card:nth-child(3) span {
+  background: #ff3d70;
+  padding: 14px 17px;
+    border-radius: 50%;
+}
+.section-wrapper .card:nth-child(4) span {
+  background: #ffa22b;
+  padding: 14px 19px;
+    border-radius: 50%;
+}
+.section-wrapper .card:nth-child(5) span {
+  background: #fc3d50;
+  padding: 14px 12px;
+    border-radius: 50%;
+}
+.section-wrapper .card:nth-child(6) span {
+  background: #00d6e6;
+  padding: 13px 16px;
+    border-radius: 50%;
+}
+
+.section-wrapper i{
+  font-size: 31px;
+  color: white;
+}
+
+.parallax {
+  background-image: url("../../../../assets/images/3.jpeg");
+  min-height: 350px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.parallax button{
+  border: none;
+  background: #2b64ab;
+  padding: 7px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
 .how-it-works a{
   background: #fff;
   font-size: 37px;
@@ -24,6 +101,7 @@ p{
   margin-bottom: 13px;
   display: inline-block;
 }
+
 .how-it-works p{
   font-size: 13px;
 }
@@ -48,18 +126,30 @@ p{
   display: inline-block;
 }
 
-.about-banner{
-  position: relative;
-  background-image: url("../../../../assets/images/about-banner.jpg");
-  background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    // height: 376px;
+// .about-banner{
+//   position: relative;
+//   background-image: url("../../../../assets/images/about-banner.jpg");
+//   background-position: center center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     // height: 376px;
+// }
+.about-banner img{
+  width: 100%;
+  height: 344px;
 }
 .svg-wave{
   position: absolute;
   width: 100%;
   bottom: -21%;
   // transform:rotate(180deg);
+}
+
+@media(max-width:992px){
+  .section-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 19px;
+  }
 }
 
